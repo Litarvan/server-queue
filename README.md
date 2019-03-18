@@ -1,5 +1,8 @@
 # Server queue
 
+[![Version](https://img.shields.io/github/release/Litarvan/server-queue.svg?style=flat-square)](https://github.com/Litarvan/server-queue/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/Litarvan/server-queue/total.svg?style=flat-square)](https://github.com/Litarvan/server-queue/releases)
+
 A Minecraft server connection queue.
 
 ## Server
