@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'fr.litarvan:server-queue:1.0.0'
+    implementation 'fr.litarvan:server-queue-client:1.0.0'
 }
 ```
 
