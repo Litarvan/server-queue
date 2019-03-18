@@ -36,6 +36,10 @@ public class ClientQueue
 
 		int room = infos.players.max - infos.players.online - 1; // Je laisse une marge de 1 joueur au cas où
 
+		if (room > queue.size()) {
+			room = queue.size();
+		}
+
 		for (int i = 0; i < room; i++) { // For every client there is room for
 			Client client = queue.poll();
 

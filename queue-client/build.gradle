@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
+version '1.0.0'
 archivesBaseName = 'server-queue-client'
 
 task sourcesJar(type: Jar) {

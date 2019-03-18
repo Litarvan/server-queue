@@ -5,10 +5,10 @@ plugins {
 
 allprojects {
     group 'fr.litarvan'
-    version '1.0.0'
-
     sourceCompatibility = 1.8
 }
+
+version '1.0.1'
 
 archivesBaseName = 'server-queue'
 mainClassName = 'fr.litarvan.queue.Main'
