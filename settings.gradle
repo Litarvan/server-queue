@@ -1,0 +1,2 @@
+rootProject.name = 'server-queue'
+include 'queue-client'

@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+build/
+out/
+queue-client/build/
+queue-client/out/

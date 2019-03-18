@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+allprojects {
+    group 'fr.litarvan'
+    version '1.0.0'
+
+    sourceCompatibility = 1.8
+}
+
+archivesBaseName = 'server-queue'
+mainClassName = 'fr.litarvan.queue.Main'
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "http://wytrem.github.io/maven/"
+    }
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.22'
+    implementation 'net.wytrem:wylog:2.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+
+jar {
+    from 'LICENSE'
+}
